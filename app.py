@@ -3,7 +3,7 @@ import pickle
 import numpy as np
 
 # Load the model
-with open('ecom_model.pkl', 'rb') as f:
+with open('E-commerce Product Rating.pkl', 'rb') as f:
     model = pickle.load(f)
 
 st.set_page_config(page_title="CreCat - Product Rating Predictor", layout="centered")
